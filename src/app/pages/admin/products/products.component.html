@@ -1,0 +1,40 @@
+<div class="d-flex justify-content-between my-5">
+  <h2>Quan ly san pham</h2>
+  <button class="btn btn-primary" routerLink="product/add">
+    Them san pham
+  </button>
+</div>
+
+<table class="table table-bodered table-striped">
+  <thead>
+    <th>#</th>
+    <th>Anh</th>
+    <th>Ten</th>
+    <th>Gia</th>
+    <th>Tinh trang</th>
+    <th>Hien thi</th>
+    <th></th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of products; index as i">
+      <td>{{ i + 1 }}</td>
+      <td>
+        <img [src]="product.imageUrl" alt="{{ product.name }}" width="80" />
+      </td>
+      <td>{{ product.name }}</td>
+      <td>{{ product.price }}</td>
+      <td>{{ product.in_stock ? "Con hang" : "Het hang" }}</td>
+      <td>
+        <button
+          class="btn btn-primary"
+          routerLink="product/{{ product.id }}/edit"
+        >
+          Sua
+        </button>
+        <button class="btn btn-danger" (click)="removeItem(product.id!)">
+          Xoa
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>

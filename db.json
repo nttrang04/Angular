@@ -1,0 +1,78 @@
+{
+  "products": [
+    {
+      "name": "Product 2",
+      "imageUrl": "https://picsum.photos/200/300",
+      "price": 200,
+      "in_stock": "false",
+      "description": " Description for product 2",
+      "published": true,
+      "id": 2
+    },
+    {
+      "name": "Product 3",
+      "imageUrl": "https://picsum.photos/200/300",
+      "price": 300,
+      "in_stock": true,
+      "description": " Description for product 3",
+      "published": true,
+      "id": 3
+    },
+    {
+      "name": "cdsd",
+      "imageUrl": "https://picsum.photos/200/300",
+      "price": 5345,
+      "in_stock": "false",
+      "description": "ddss",
+      "published": "false",
+      "id": 4
+    },
+    {
+      "name": "cdsd",
+      "imageUrl": "https://picsum.photos/200/300",
+      "price": 5345,
+      "in_stock": "false",
+      "description": "ddss",
+      "published": "false",
+      "id": 5
+    },
+    {
+      "name": "frgref",
+      "imageUrl": "https://picsum.photos/200/300",
+      "price": 434,
+      "in_stock": "false",
+      "description": "fdvbfv",
+      "published": "false",
+      "id": 6
+    },
+    {
+      "name": "vèd update",
+      "imageUrl": "https://picsum.photos/200/300",
+      "price": 1234567,
+      "in_stock": "false",
+      "description": "",
+      "published": "false",
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "email": "nttrang303204@gmail.com",
+      "password": "$2a$10$1wbvVosH4ZtV/Arg4E3fSuxskoTtqQNtSd0io2t0EjbD5rkwlX6Yi",
+      "username": "trangxinh",
+      "id": 1
+    },
+    {
+      "email": "nguyenthichien3003@gmail.com",
+      "password": "$2a$10$5AfmCmeQkILT4r/TJnORCuOVvOm2Sm8k8A8araO1WqzR3piTwa9w6",
+      "username": "thutrang",
+      "id": 2
+    },
+    {
+      "email": "12@gmail.com",
+      "password": "$2a$10$9C1jaLrXJykw1KUqDoldquuurAQAy5x42r2R2jYQxk/4QM2gnjeRW",
+      "username": "thutrang",
+      "id": 3
+    }
+  ]
+}
